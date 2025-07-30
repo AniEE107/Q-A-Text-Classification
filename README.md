@@ -1,7 +1,7 @@
-🤖 Q&A Text Classification using PyTorch RNN
+# 🤖 Q&A Text Classification using PyTorch RNN
 Welcome to a lightweight yet powerful RNN-based Question Classification system built with PyTorch! 🧠 This project demonstrates how to process, classify, and visualize natural language questions using a custom-built RNN.
 
-🚀 Features
+# 🚀 Features
 🧹 Custom Tokenizer & Vocabulary Builder
 
 🧠 RNN-Based Sequence Model (Embedding → RNN → Linear)
@@ -14,7 +14,7 @@ Welcome to a lightweight yet powerful RNN-based Question Classification system b
 
 📊 Visualization of Class Distributions & Model Predictions
 
-🖼️ Visual Highlights
+# 🖼️ Visual Highlights
 📌 Category Distribution
 <img src="https://github.com/AniEE107/Q-A-Text-Classification/blob/main/Categorical_dist.png" width="600"/>
 📈 Confidence Score Plot (Example 1)
@@ -28,7 +28,7 @@ Format: Two columns — question and answer
 
 Preprocessing: Lowercasing, punctuation cleaning, whitespace tokenization
 
-📐 Model Architecture
+# 📐 Model Architecture
 text
 Copy
 Edit
@@ -41,7 +41,7 @@ Linear: Maps RNN output to class scores
 
 Softmax: Converts scores to probabilities
 
-🛠️ Project Structure
+# 🛠️ Project Structure
 css
 Copy
 Edit
@@ -62,7 +62,7 @@ Edit
 visualize_prediction(model, "What is Machine?", index2label)
 Renders a horizontal bar chart showing model confidence per class.
 
-📊 Training Progress (Sample)
+# 📊 Training Progress (Sample)
 Epoch	Loss	Accuracy
 1	525.07	21.5%
 5	264.87	52.4%
@@ -70,12 +70,7 @@ Epoch	Loss	Accuracy
 
 ✅ Loss decreases steadily — model is learning effectively!
 
-📦 Requirements
-bash
-Copy
-Edit
-pip install torch pandas matplotlib numpy
-🧠 Future Enhancements
+# 🧠 Future Enhancements
 ⏱ Use LSTM or GRU for better context understanding
 
 🧬 Integrate pretrained embeddings (e.g., GloVe, FastText)
@@ -84,9 +79,9 @@ pip install torch pandas matplotlib numpy
 
 🧪 Add validation/test split with metrics
 
-👨‍💻 Author
+# 👨‍💻 Author
 Manish Kumar — GitHub Profile »
 If you find this project helpful, please ⭐️ star the repo!
 
-📎 License
+# 📎 License
 This project is open-source under the MIT License.
